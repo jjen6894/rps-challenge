@@ -1,9 +1,12 @@
 source 'https://rubygems.org'
 
-ruby '2.2.3'
+ruby '2.3.3'
 
 gem 'sinatra'
 gem 'rake'
+gem 'rack'
+gem 'rspec-sinatra'
+gem 'selenium-webdriver'
 
 group :test do
   gem 'rspec'
